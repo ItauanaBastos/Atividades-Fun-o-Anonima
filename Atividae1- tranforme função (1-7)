@@ -1,0 +1,51 @@
+Exercício 1 -
+
+let quadrado = function(num) {
+return num * num;
+};
+console.log(quadrado(4)); // Saída: 10
+
+RESPOSTA 2- 
+
+let saudacao = function(name) {
+return "olá, " + name + "!";
+};
+console.log(saudacao('Maria')); 
+
+RESPOSTA 3 -
+
+let soma = function(a,b) {
+return a +b;
+};
+console.log(soma(10,5)); 
+
+RESPOSTA 4 - 
+
+let verificaPar = function(num) {
+return num % 2===0;
+};
+console.log(verificaPar(7)); 
+
+RESPOSTA 5- 
+let calFatorial = function(num) {
+  if(num===0) return 1;
+  return num * calFatorial(num-1);
+};
+console.log(calFatorial(5)); 
+
+RESPOSTA 6 -
+
+let dobroDCE = function(array) {
+  return array.map(n => n*2);
+};
+console.log(dobroDCE([1,2,3])); 
+
+RESPOSTA 7- 
+
+let juntaStrg = function(str1, str2) {
+  return str1 + str2;
+};
+console.log(juntaStrg('Olá ', 'Mundo!')); 
+
+
+
