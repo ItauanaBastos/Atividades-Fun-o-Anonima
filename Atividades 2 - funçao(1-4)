@@ -1,0 +1,30 @@
+ATIVIDADE 2
+
+
+RESPOSTA 1 - 
+
+const quadrado = num => num*num;
+console.log(quadrado(4));
+
+RESPOSTA 2-
+
+const soma = (a,b)=> a + b ;
+console.log(soma(5,3));
+
+RESPOSTA 3 -
+
+const saudacao = ()=> "Olá, mundo!" ;
+console.log(saudacao());
+
+RESPOSTA 4 - 
+
+opção1:
+const multDois = (num) => num*2 ;
+console.log(multDois(7));
+
+opção2:
+const multDois = num => {
+    let result = num*2;
+    return result; 
+};
+console.log(multDois(7));
